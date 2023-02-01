@@ -1,0 +1,100 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: url(../images/gradient-bg-1.png) fixed center no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: lighter;
+    color: #777;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2, h3, h4, h5 {
+    font-weight: normal;
+    color: #222;
+}
+
+table {
+    font-size: 14px;
+    border: 1px solid #eee;
+}
+
+.row {
+    padding: 20px 30px;
+}
+
+.some {
+    margin-left: 30px;
+}
+
+.proceed {
+    margin-left: 30px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    /* Vertically center the text there */
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+
+

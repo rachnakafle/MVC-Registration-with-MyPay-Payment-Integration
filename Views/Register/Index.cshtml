@@ -1,0 +1,74 @@
+﻿@model Register;
+
+@{
+    ViewData["Title"] = "Itahari Talent Hunt";
+}
+
+<header class="mb-2">
+    <h1 class="form-title">@ViewData["Title"] </h1>
+</header>
+
+<form method="post" asp-action="Index1">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="row mb-3 mb-2">
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 mb-2">
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 mb-2">
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input type="text" asp-for="Email" class="form-control />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6  mb-2">
+            <div class="form-group">
+                <label asp-for="Institution" class="control-label"></label>
+                <input asp-for="Institution" class="form-control" />
+                <span asp-validation-for="Institution" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 mb-2">
+            <div class="form-group">
+                <label asp-for="EducationLevel" class="control-label"></label>
+                <input asp-for="EducationLevel" class="form-control" />
+                <span asp-validation-for="EducationLevel" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 mb-2">
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <input type="text" asp-for="Gender" class="form-control" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 mb-2">
+            <div class="form-group">
+                <label asp-for="ParticipateTitle" class="control-label"></label>
+               <input type="text" asp-for="ParticipateTitle" class="form-control" />
+                <span asp-validation-for="ParticipateTitle" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="proceed">
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    </div>
+</form>
