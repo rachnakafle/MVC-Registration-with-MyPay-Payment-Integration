@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SchoolRegistrationForm.Data.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace SchoolRegistrationForm.Models
 {
@@ -12,7 +13,7 @@ namespace SchoolRegistrationForm.Models
         public string? Institution { get; set; }
         public string? EducationLevel { get; set; }
         public string? Gender { get; set; }
-        public string? ParticipateTitle { get; set; }
+        public Participate_Title ParticipateTitle { get; set; }
       
     }
 }

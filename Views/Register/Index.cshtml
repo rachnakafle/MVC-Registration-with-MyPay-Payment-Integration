@@ -1,4 +1,5 @@
-﻿@model Register;
+﻿@using SchoolRegistrationForm.Data.Enums
+@model Register;
 
 @{
     ViewData["Title"] = "Itahari Talent Hunt";
@@ -62,11 +63,23 @@
         <div class="col-lg-6 mb-2">
             <div class="form-group">
                 <label asp-for="ParticipateTitle" class="control-label"></label>
-               <input type="text" asp-for="ParticipateTitle" class="form-control" />
+               <select type="text" asp-for="ParticipateTitle" asp-items="Html.GetEnumSelectList<Participate_Title>()" class="form-control" >
+                     <option selected="selected" value="">Please select</option>
+               </select>
                 <span asp-validation-for="ParticipateTitle" class="text-danger"></span>
             </div>
         </div>
-    </div>
+
+     @*<div class="col-lg-6 mb-2">
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <select asp-for="Gender" class="form-control" asp-items="Html.GetEnumSelectList<Gender>()">
+                    <option selected="selected" value="">Please select</option>
+                </select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+        </div>
+    </div>*@
 
     <div class="proceed">
         <input type="submit" value="Submit" class="btn btn-primary" />
