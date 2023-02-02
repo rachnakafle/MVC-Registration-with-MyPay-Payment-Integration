@@ -52,20 +52,39 @@
             </div>
         </div>
 
+@*        <div class="col-lg-6 mb-2">
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                 <select type="text" asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()" class="form-select">
+                    <option selected="selected" value="">Please select</option>
+                </select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+        </div>*@
+
         <div class="col-lg-6 mb-2">
             <div class="form-group">
                 <label asp-for="Gender" class="control-label"></label>
-                <input type="text" asp-for="Gender" class="form-control" />
+                @Html.DropDownList("Gender",
+                new SelectList(Enum.GetValues(typeof(Gender))),
+                "Select Gender",
+                new { @class = "form-select" })
                 <span asp-validation-for="Gender" class="text-danger"></span>
             </div>
         </div>
 
+ 
+
         <div class="col-lg-6 mb-2">
             <div class="form-group">
                 <label asp-for="ParticipateTitle" class="control-label"></label>
-               <select type="text" asp-for="ParticipateTitle" asp-items="Html.GetEnumSelectList<Participate_Title>()" class="form-control" >
-                     <option selected="selected" value="">Please select</option>
-               </select>
+           @*     <select type="text" asp-for="ParticipateTitle" asp-items="Html.GetEnumSelectList<Participate_Title>()" class="form-select">
+                    <option selected="selected" value="">Please select</option>
+                </select>*@
+                @Html.DropDownList("ParticipateTitle",
+                new SelectList(Enum.GetValues(typeof(Participate_Title))),
+                "Select Participate Title",
+                new { @class = "form-select" })
                 <span asp-validation-for="ParticipateTitle" class="text-danger"></span>
             </div>
         </div>

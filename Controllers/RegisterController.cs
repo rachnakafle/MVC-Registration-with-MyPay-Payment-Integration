@@ -1,18 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using SchoolRegistrationForm.Data;
 using SchoolRegistrationForm.Models;
 using System.Net;
 using System.Net.Mail;
+using System.Text;
 
 namespace SchoolRegistrationForm.Controllers
 {
     public class RegisterController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IConfiguration _config;
 
-        public RegisterController(AppDbContext context)
+
+        public RegisterController(AppDbContext context, IConfiguration config)
         {
             _context = context;
+            _config = config;
         }
 
         public IActionResult Index()
@@ -20,18 +25,36 @@ namespace SchoolRegistrationForm.Controllers
             return View();
         }
 
+        [Route("success")]
+        public IActionResult Success(string MerchantTransactionId)
+        {
+            return View();
+        }
+
+
+        [Route("Failed")]
+        public IActionResult Failed()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-
         public IActionResult Index1(Register register)
         {
             if (ModelState.IsValid)
             {
                 _context.Questions.Add(register);
                 _context.SaveChanges();
-                return RedirectToAction("Index");
-            }
+                SendEmail("rachanakafle0@gmail.com","test", $"Hello {register.Name},  " +
+                    $"Your have been registerd to itahari talent hunt." +
+                    $" Your participate title is {register.ParticipateTitle}");
+                //return RedirectToAction("Index");
+                DateTime.Now.ToString("yyMMddHHmmssff");
 
+               return Payment("0.01", DateTime.Now.ToString("yyMMddHHmmssff"));
+            
+            }
             return View("Index");
         }
 
@@ -42,7 +65,7 @@ namespace SchoolRegistrationForm.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    var senderEmail = new MailAddress("yash-7@outlook.com", "Jamil");
+                    var senderEmail = new MailAddress("yash-7@outlook.com", "Rachana");
                     var receiverEmail = new MailAddress(receiver, "Receiver");
                     var password = "Yash@671";
                     var sub = subject;
@@ -72,6 +95,35 @@ namespace SchoolRegistrationForm.Controllers
                 ViewBag.Error = "Some Error";
             }
             return View();
+        }
+
+        public IActionResult Payment(string price, string orderID)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = new Apiresponse();
+                var endpoint = new Uri(_config["PaymentSetting:Url"]);
+                var newPost = new Post()
+                {
+                    Amount = price,
+                    OrderId = orderID,
+                    UserName = _config["PaymentSetting:UserName"],
+                    Password = _config["PaymentSetting:Password"],
+                    MerchantId = _config["PaymentSetting:MerchantId"]
+                };
+                client.DefaultRequestHeaders.Add("API_KEY", _config["PaymentSetting:API_KEY"]);
+                var newpostjson = JsonConvert.SerializeObject(newPost);
+                var payload = new StringContent(newpostjson, Encoding.UTF8, "application/json");
+                var result = client.PostAsync(endpoint, payload).Result.Content.ReadAsStringAsync().Result;
+
+                response = JsonConvert.DeserializeObject<Apiresponse>(result);
+                if (response.Message == "Success")
+                {
+                    return Redirect(response.RedirectURL);
+                };
+
+            }
+            return Ok();
         }
     }
 }

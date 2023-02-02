@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNet\\office_project\\SchoolRegistrationForm\\SchoolRegistrationForm.csproj": {}
+    "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\SchoolRegistrationForm.csproj": {}
   },
   "projects": {
-    "D:\\DotNet\\office_project\\SchoolRegistrationForm\\SchoolRegistrationForm.csproj": {
+    "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\SchoolRegistrationForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet\\office_project\\SchoolRegistrationForm\\SchoolRegistrationForm.csproj",
+        "projectUniqueName": "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\SchoolRegistrationForm.csproj",
         "projectName": "SchoolRegistrationForm",
-        "projectPath": "D:\\DotNet\\office_project\\SchoolRegistrationForm\\SchoolRegistrationForm.csproj",
+        "projectPath": "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\SchoolRegistrationForm.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet\\office_project\\SchoolRegistrationForm\\obj\\",
+        "outputPath": "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             }
           },
           "imports": [

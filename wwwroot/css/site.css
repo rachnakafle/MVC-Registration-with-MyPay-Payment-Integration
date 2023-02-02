@@ -76,9 +76,9 @@ table {
     margin-left: 30px;
 }
 
-.proceed {
+/*.proceed {
     margin-left: 30px;
-}
+}*/
 
 .footer {
     position: absolute;
@@ -94,7 +94,3 @@ table {
         font-size: 16px;
     }
 }
-
-
-
-

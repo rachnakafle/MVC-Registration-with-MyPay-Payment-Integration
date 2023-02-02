@@ -13,7 +13,11 @@ namespace SchoolRegistrationForm.Models
         public string? Institution { get; set; }
         public string? EducationLevel { get; set; }
         public string? Gender { get; set; }
-        public Participate_Title ParticipateTitle { get; set; }
-      
+        public string? ParticipateTitle { get; set; }
+
+
+        public int? OrderId { get; set; }
+        public int? TransactionId { get; set; }
+        public string? Status { get; set; }
     }
 }
