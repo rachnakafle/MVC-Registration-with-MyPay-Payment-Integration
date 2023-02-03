@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8WwyY2A45Rehxc6AKxXsryL9ft8JQCoLUOjoofOIy8w=",
+  "Hash": "2juwS2QI8F0t1Icae6NYzj3Vv6fOYj8MEZaRnImnem0=",
   "Source": "SchoolRegistrationForm",
   "BasePath": "_content/SchoolRegistrationForm",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\health.jpg"
+    },
+    {
+      "Identity": "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\wwwroot\\images\\Itahari Talent Hunt.jpg",
+      "SourceId": "SchoolRegistrationForm",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\wwwroot\\",
+      "BasePath": "_content/SchoolRegistrationForm",
+      "RelativePath": "images/Itahari Talent Hunt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Itahari Talent Hunt.jpg"
+    },
+    {
+      "Identity": "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\wwwroot\\images\\Itahari Talent Hunt2.jpg",
+      "SourceId": "SchoolRegistrationForm",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\wwwroot\\",
+      "BasePath": "_content/SchoolRegistrationForm",
+      "RelativePath": "images/Itahari Talent Hunt2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Itahari Talent Hunt2.jpg"
     },
     {
       "Identity": "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\wwwroot\\js\\site.js",

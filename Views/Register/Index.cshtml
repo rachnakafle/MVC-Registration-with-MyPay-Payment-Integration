@@ -5,7 +5,7 @@
     ViewData["Title"] = "Itahari Talent Hunt";
 }
 
-<header class="mb-2">
+<header class="mb-2 heading">
     <h1 class="form-title">@ViewData["Title"] </h1>
 </header>
 
@@ -78,9 +78,6 @@
         <div class="col-lg-6 mb-2">
             <div class="form-group">
                 <label asp-for="ParticipateTitle" class="control-label"></label>
-           @*     <select type="text" asp-for="ParticipateTitle" asp-items="Html.GetEnumSelectList<Participate_Title>()" class="form-select">
-                    <option selected="selected" value="">Please select</option>
-                </select>*@
                 @Html.DropDownList("ParticipateTitle",
                 new SelectList(Enum.GetValues(typeof(Participate_Title))),
                 "Select Participate Title",

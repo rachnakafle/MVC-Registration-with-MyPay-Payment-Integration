@@ -50,6 +50,10 @@ body {
     color: #777;
 }
 
+.heading{
+    margin-left:32px;
+}
+
 img {
     max-width: 100%;
 }
