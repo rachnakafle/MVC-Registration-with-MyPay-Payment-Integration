@@ -72,8 +72,8 @@ namespace SchoolRegistrationForm.Controllers
           
             //_context.Questions.Add(reg);
             _context.SaveChanges();
-            SendEmail("rachanakafle0@gmail.com", "test", $"Hello {regDetail.Name},  " +
-                    $"Your have been registerd to itahari talent hunt." +
+            SendEmail(regDetail.Email, "test", $"Hello {regDetail.Name}, Congratulations!!! " +
+                    $"Your have been registerd to Itahari Talent Hunt." +
                     $" Your participate title is {regDetail.ParticipateTitle}");
             //return RedirectToAction("Index");
             return View();
@@ -107,21 +107,6 @@ namespace SchoolRegistrationForm.Controllers
             {
                 status = "Incomplete";
             }
-
-            //var reg = new Register
-            //{
-            //    Name = regDetail.Name,
-            //    Address = regDetail.Address,
-            //    Email = regDetail.Email,
-            //    Institution = regDetail.Institution,
-            //    EducationLevel = regDetail.EducationLevel,
-            //    Gender = regDetail.Gender,
-            //    ParticipateTitle = regDetail.ParticipateTitle,
-            //    OrderId = regDetail.OrderId,
-            //    TransactionId = regDetail.TransactionId,
-            //    Status = status,
-            //};
-            //_context.Questions.Add(reg);
             regDetail.Status = status;
             _context.SaveChanges();
             return View();
@@ -258,7 +243,5 @@ namespace SchoolRegistrationForm.Controllers
             }
 
         }
-    }
-
-   
+    } 
 }
