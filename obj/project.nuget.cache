@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FuPKZ64tffcXMC6HVq3AbDooxQwWZeciAsw/LyqEk0WuBXAYrAFxmrcbXUwXTEAc9/M8/J5I/c0ddfjZD9BuTg==",
+  "dgSpecHash": "S4k/omjej4CZstYrJJlmiWBZX79kKOIPkyhTDRIE45HZ+JIpXTvaqIQira+Kceak4dFaAfoNQ2yBdUE5qOcLZw==",
   "success": true,
-  "projectFilePath": "D:\\DotNet\\office_project\\Itahari_Talent_Hunt\\SchoolRegistrationForm.csproj",
+  "projectFilePath": "D:\\AspNet\\MVC-Registration-with-MyPay-Payment-Integration\\SchoolRegistrationForm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

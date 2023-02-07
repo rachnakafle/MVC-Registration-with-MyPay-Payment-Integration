@@ -8,49 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SchoolRegistrationForm
 build_property.RootNamespace = SchoolRegistrationForm
-build_property.ProjectDir = D:\DotNet\office_project\Itahari_Talent_Hunt\
+build_property.ProjectDir = D:\AspNet\MVC-Registration-with-MyPay-Payment-Integration\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\DotNet\office_project\Itahari_Talent_Hunt
+build_property.MSBuildProjectDirectory = D:\AspNet\MVC-Registration-with-MyPay-Payment-Integration
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/Register/Failed.cshtml]
+[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Register/Failed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRmFpbGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/Register/Index.cshtml]
+[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/Register/Success.cshtml]
+[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Register/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/Shared/Error.cshtml]
+[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/_ViewImports.cshtml]
+[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/_ViewStart.cshtml]
+[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNet/office_project/Itahari_Talent_Hunt/Views/Shared/_Layout.cshtml]
+[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1g6x5kbojr
