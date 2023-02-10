@@ -5,44 +5,49 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SchoolRegistrationForm
 build_property.RootNamespace = SchoolRegistrationForm
-build_property.ProjectDir = D:\AspNet\MVC-Registration-with-MyPay-Payment-Integration\
+build_property.ProjectDir = D:\yash\register\MVC-Registration-with-MyPay-Payment-Integration\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\AspNet\MVC-Registration-with-MyPay-Payment-Integration
+build_property.MSBuildProjectDirectory = D:\yash\register\MVC-Registration-with-MyPay-Payment-Integration
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Register/Failed.cshtml]
+[D:/yash/register/MVC-Registration-with-MyPay-Payment-Integration/Views/Auth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/yash/register/MVC-Registration-with-MyPay-Payment-Integration/Views/Register/Failed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRmFpbGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Register/Index.cshtml]
+[D:/yash/register/MVC-Registration-with-MyPay-Payment-Integration/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Register/Success.cshtml]
+[D:/yash/register/MVC-Registration-with-MyPay-Payment-Integration/Views/Register/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Shared/Error.cshtml]
+[D:/yash/register/MVC-Registration-with-MyPay-Payment-Integration/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/yash/register/MVC-Registration-with-MyPay-Payment-Integration/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/_ViewImports.cshtml]
+[D:/yash/register/MVC-Registration-with-MyPay-Payment-Integration/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/_ViewStart.cshtml]
+[D:/yash/register/MVC-Registration-with-MyPay-Payment-Integration/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspNet/MVC-Registration-with-MyPay-Payment-Integration/Views/Shared/_Layout.cshtml]
+[D:/yash/register/MVC-Registration-with-MyPay-Payment-Integration/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1g6x5kbojr
